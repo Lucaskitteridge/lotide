@@ -15,5 +15,6 @@ const countLetters = function(string) {
       result[letters] = 1;
     }
   }
+  delete result[' '];
   return result;
 };
