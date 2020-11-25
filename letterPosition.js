@@ -22,13 +22,13 @@ const letterPositions = function(sentence) {
   const results = {};
   for (let letters of sentence) {
     let newArray = [];
-    for (let i = 0; i < sentence.length; i++){
-      if (sentence[i] === letters){
-        newArray.push(i)
+    for (let i = 0; i < sentence.length; i++) {
+      if (sentence[i] === letters) {
+        newArray.push(i);
       }
     }
-    results[letters] = newArray  
+    results[letters] = newArray;
   }
-  delete results[' ']
+  delete results[' '];
   return results;
 };
