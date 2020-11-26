@@ -20,7 +20,7 @@ const assertObjectsEqual = function(object1, object2) {
   if (eqObjects(object1, object2)) {
     console.log('They both match!');
   } else {
-    console.log('The arrays dont match');
+    console.log('The objects dont match');
   }
 };
 
