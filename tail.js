@@ -1,5 +1,6 @@
 const tail = function(array) {
-  return array.shift;
+  let newArray = array.slice(1)
+  return newArray
 };
 
 module.exports = tail;
